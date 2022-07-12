@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    div#sologan{
+        display: none;
+    }
+    div#header {
+        overflow: hidden;
+    }
+    .nav-search {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    
+    }
+    #nav li{
+        display: block;
+    }
+    .member-item, .city {
+        flex: 80%;
+    }
+    #content .content-section {
+        padding: 0px 6%;
+        left: 15%;
+        right: 15%;
+        padding-bottom: 64px;
+    }
+    .left-side, .right-side {
+        width: 100%;
+    }
+
+}
